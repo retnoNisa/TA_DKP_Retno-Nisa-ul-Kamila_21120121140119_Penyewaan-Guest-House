@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.pemesanan.GUIinfo">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="6" y="13" width="1108" height="486"/>
+    </constraints>
+    <properties>
+      <background color="-463663"/>
+      <inheritsPopupMenu value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="e9fb8" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5472888"/>
+          <font name="JetBrains Mono" size="18" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="65323" binding="roomPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Room"/>
+            </constraints>
+            <properties>
+              <background color="-2181461"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a6d02" class="javax.swing.JLabel" binding="jenisKamarYangTersediaLabel" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="36" style="1"/>
+                  <foreground color="-13818074"/>
+                  <text value="Jenis Kamar Yang Tersedia di Waikiki Guest House:"/>
+                </properties>
+              </component>
+              <component id="b27ce" class="javax.swing.JButton" binding="buttonStandard">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-8169361"/>
+                  <font size="22"/>
+                  <foreground color="-16777216"/>
+                  <text value="Standard"/>
+                </properties>
+              </component>
+              <component id="7cd2d" class="javax.swing.JButton" binding="buttonDouble">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-8169361"/>
+                  <font size="22"/>
+                  <foreground color="-16777216"/>
+                  <text value="Double"/>
+                </properties>
+              </component>
+              <component id="3596f" class="javax.swing.JButton" binding="buttonFamily">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-8169361"/>
+                  <font size="22"/>
+                  <foreground color="-16777216"/>
+                  <text value="Family"/>
+                </properties>
+              </component>
+              <component id="4f8c3" class="javax.swing.JTextArea" binding="textHasil">
+                <constraints>
+                  <grid row="1" column="1" row-span="3" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5472888"/>
+                  <editable value="false"/>
+                  <font name="JetBrains Mono" size="24" style="0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="dfcb" binding="additionPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Addition"/>
+            </constraints>
+            <properties>
+              <background color="-2181461"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="62904" class="javax.swing.JLabel" binding="LabelFasTamb">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="28" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Fasilitas Tambahan"/>
+                </properties>
+              </component>
+              <component id="2aa47" class="javax.swing.JLabel" binding="labelFasMain">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="28" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Fasilitas Bermain"/>
+                </properties>
+              </component>
+              <component id="38325" class="javax.swing.JTextPane" binding="textAdd1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5472888"/>
+                  <caretColor color="-8169361"/>
+                  <editable value="false"/>
+                  <font name="JetBrains Mono" size="24"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="e5094" class="javax.swing.JTextPane" binding="textAdd2">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5472888"/>
+                  <editable value="false"/>
+                  <font name="JetBrains Mono" size="24"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f5448" binding="contactPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Contact"/>
+            </constraints>
+            <properties>
+              <background color="-2181461"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="bd36c" class="javax.swing.JTextArea" binding="textContact">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5472888"/>
+                  <editable value="false"/>
+                  <font name="JetBrains Mono" size="24" style="0"/>
+                </properties>
+              </component>
+              <component id="4bb9e" class="javax.swing.JLabel" binding="judulKontak">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="36" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Anda bisa menghubungi Waikiki Guest House Melalui:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <component id="97b89" class="javax.swing.JButton" binding="buttonKembali">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8169361"/>
+          <font size="22" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Kembali"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
