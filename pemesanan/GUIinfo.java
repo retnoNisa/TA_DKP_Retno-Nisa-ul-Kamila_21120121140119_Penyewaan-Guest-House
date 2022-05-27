@@ -3,7 +3,7 @@ package com.pemesanan;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class GUIinfo extends javax.swing.JFrame{
+public class GUIinfo extends JFrame{
     private JLabel buttonAnakPanel1;
     private JPanel mainPanel;
     private JTabbedPane tabbedPane1;

@@ -174,8 +174,9 @@ public class GUIpesan extends JFrame {
                 boxKembalian.setText("");
                 hargaKamar.setText("");
                 hargaFasilitas.setText("");
+                hargaFasBermain.setText("");
                 jmlTambah.setText("");
-                textHasil.setText(null);
+                textHasil.setText("");
             }
         });
         boxFasBermain.addActionListener(new ActionListener() {
